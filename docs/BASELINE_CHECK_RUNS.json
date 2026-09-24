@@ -1,0 +1,38 @@
+{
+ "build": "JY-S037-P001/0.1.1-partial/run-0001",
+ "environment": {
+  "executor": "claude cowork session 01SaQzDRzMFXvRabmCC6JDJD (claude-fable-5)",
+  "python": "3.11.15",
+  "platform": "Linux-6.18.44-fc-v24-x86_64-with-glibc2.39",
+  "location": "Anthropic cloud container (Linux)"
+ },
+ "checks": [
+  {
+   "id": "baseline-unit-tests",
+   "command": "python3 -m unittest discover -s tests -t .",
+   "result": "PASS 11/11 (baseline 0.1.0-partial)",
+   "captured_at": "2026-09-14T19:10:42.059708+00:00"
+  },
+  {
+   "id": "audit-probes",
+   "command": "live probes P1-P9 (see audit/findings.json)",
+   "result": "7 defects reproduced on baseline, all fixed",
+   "captured_at": "2026-09-14T19:10:42.059708+00:00"
+  },
+  {
+   "id": "candidate-unit-tests",
+   "command": "python3 -m unittest discover -s tests -t .",
+   "result": "PASS 18/18 (candidate 0.1.1-partial, final bytes)",
+   "captured_at": "2026-09-14T19:10:42.059708+00:00"
+  }
+ ],
+ "unrun_checks": [
+  "Windows-native launch UNRUN - no Windows runtime this session",
+  "independent review NOT PERFORMED",
+  "QAM handshakes",
+  "2PC nuclear binding",
+  "true parallelism",
+  "968-item program and gates"
+ ],
+ "note": "Evidence current for these inputs on this host only."
+}
