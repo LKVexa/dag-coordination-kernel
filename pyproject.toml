@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=78,<85"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dag-coordination-kernel"
+version = "0.1.2a1"
+description = "Deterministic sequential DAG execution with replay-checked checkpoints"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "Apache-2.0"
+license-files = ["LICENSE", "NOTICE", "THIRD-PARTY-NOTICES.md"]
+authors = [{name = "RUSSELL PHILIP SMITHSON"}]
+dependencies = []
+
+[tool.setuptools.packages.find]
+include = ["n01*"]
