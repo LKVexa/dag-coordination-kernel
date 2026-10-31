@@ -1,7 +1,7 @@
 # License scope
 
 Original code and September 2026 modifications by RUSSELL PHILIP SMITHSON are
-provided under Apache 2.0; see LICENSE and NOTICE. Python and build tools are
+provided under GNU GPL version 3 only (GPL-3.0-only); see LICENSE and NOTICE. Python and build tools are
 not bundled and retain their own licenses.
 
 # Third-party notices — JY-S037-P001

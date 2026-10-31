@@ -8,8 +8,8 @@ version = "0.1.2a1"
 description = "Deterministic sequential DAG execution with replay-checked checkpoints"
 readme = "README.md"
 requires-python = ">=3.10"
-license = "Apache-2.0"
-license-files = ["LICENSE", "NOTICE", "THIRD-PARTY-NOTICES.md"]
+license = "GPL-3.0-only"
+license-files = ["LICENSE", "NOTICE", "COPYRIGHT", "THIRD-PARTY-NOTICES.md"]
 authors = [{name = "RUSSELL PHILIP SMITHSON"}]
 dependencies = []
 
